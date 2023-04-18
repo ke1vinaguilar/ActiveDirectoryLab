@@ -20,6 +20,10 @@ In this lab we're going to walk through how to create am Active Directory home l
 <h2>Program walk-through:</h2>
 
 <p align="center">
+Diagram: <br/>
+<img src="https://imgur.com/a/L7Znzh1" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 Launch the utility: <br/>
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
