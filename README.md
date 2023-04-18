@@ -17,11 +17,16 @@ In this lab we're going to walk through how to create am Active Directory home l
 - <b>Windows 10 </b> (21H2)
 - <b>Servers 2019</b>
 
+<h2>Diagram</h2>
+<p align="center">
+<img src="https://i.imgur.com/Jtqs9WI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ </p>
+
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Diagram: <br/>
-<img src="https://imgur.com/a/L7Znzh1" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Download Oracle Virtual Box: <br/>
+<a href="https://www.virtualbox.org/">Oracle Virtual Box</a>
 <br />
 <br />
 Launch the utility: <br/>
