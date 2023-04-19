@@ -19,7 +19,7 @@ In this lab we're going to walk through how to create am Active Directory home l
 
 <h2>Diagram</h2>
 <p align="center">
-<img src="https://i.imgur.com/Jtqs9WI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Jtqs9WI.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
  </p>
 
 <h2>Program walk-through:</h2>
@@ -38,31 +38,31 @@ Download Windows Server 2019 ISO File: <br/>
 <br />
 <br />
 Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 </p>
 
 <!--
