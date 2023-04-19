@@ -29,6 +29,14 @@ Download Oracle Virtual Box: <br/>
 <a href="https://www.virtualbox.org/">Oracle Virtual Box</a>
 <br />
 <br />
+Download Windows 10 ISO File: <br/>
+<a href="https://www.microsoft.com/en-us/software-download/windows10">Windows 10 ISO</a>
+<br />
+<br />
+Download Windows Server 2019 ISO File: <br/>
+<a href="https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019">Windows Server 2019 ISO</a>
+<br />
+<br />
 Launch the utility: <br/>
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
