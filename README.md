@@ -37,7 +37,7 @@ Download Windows Server 2019 ISO File: <br/>
 <a href="https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019">Windows Server 2019 ISO</a>
 <br />
 <br />
-Create a new virtual machine by clicking on "New" in VirtualBox, naming it "DC", and selecting the "Windows Server 2019" ISO file as the boot media: <br/>
+Create a new virtual machine by clicking on "New" in VirtualBox, and name it "DC": <br/>
 <img src="https://i.imgur.com/5bVPho9.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
@@ -54,16 +54,16 @@ Go to Network Tab and create 2 NICs (Network Interface Controller) 1(for the Int
  <img src="https://i.imgur.com/fU3Cusr.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+Install the Windows 2019 Server ISO file:  <br/>
+<img src="https://i.imgur.com/CiuoT8n.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+Select “Windows Server 2019 Standard Evaluation (Desktop Experience):  <br/>
+<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+Create Password:  <br/>
+<img src="https://i.imgur.com/xZNEDn1.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 </p>
 
 <!--
