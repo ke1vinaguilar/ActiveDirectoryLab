@@ -64,6 +64,114 @@ Select “Windows Server 2019 Standard Evaluation (Desktop Experience):  <br/>
 <br />
 Create Password:  <br/>
 <img src="https://i.imgur.com/xZNEDn1.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<br />
+<br />
+Login to Sever as Administrator and Click on “Devices” and then click on “Insert Guest Additions CD image…”:  <br/>
+<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<br />
+<br />
+ :  <br/>
+<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<br />
+<br />
+ :  <br/>
+<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<br />
+<br />
+ :  <br/>
+<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<br />
+<br />
+ :  <br/>
+<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<br />
+<br />
+ :  <br/>
+<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<br />
+<br />
+ :  <br/>
+<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<br />
+<br />
+ :  <br/>
+<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<br />
+<br />
+ :  <br/>
+<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<br />
+<br />
+ :  <br/>
+<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<br />
+<br />
+ :  <br/>
+<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<br />
+<br />
+ :  <br/>
+<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<br />
+<br />
+ :  <br/>
+<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<br />
+<br />:  <br/>
+<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<br />
+<br />
+ :  <br/>
+<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<br />
+<br />
+ :  <br/>
+<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<br />
+<br />
+ :  <br/>
+<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<br />
+<br />
+ :  <br/>
+<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<br />
+<br />
+ :  <br/>
+<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<br />
+<br />
+ :  <br/>
+<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<br />
+<br />
+ :  <br/>
+<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<br />
+<br />
+ :  <br/>
+<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<br />
+<br />
+ :  <br/>
+<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<br />
+<br />
+ :  <br/>
+<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<br />
+<br />:  <br/>
+<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<br />
+<br />
+ :  <br/>
+<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<br />
+<br />
+ :  <br/>
+<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<br />
+<br />
 </p>
 
 <!--
