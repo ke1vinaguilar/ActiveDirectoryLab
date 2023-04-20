@@ -37,20 +37,21 @@ Download Windows Server 2019 ISO File: <br/>
 <a href="https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019">Windows Server 2019 ISO</a>
 <br />
 <br />
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+Create a new virtual machine by clicking on "New" in VirtualBox, naming it "DC", and selecting the "Windows Server 2019" ISO file as the boot media: <br/>
+<img src="https://i.imgur.com/5bVPho9.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+Configure the virtual machine hardware:  <br/>
+<img src="https://i.imgur.com/eRMOfMG.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+Go to “Advanced Settings” and change “Shared Clipboard” and Drag’nDrop” from “Disabled” to “Bidirectional”: <br/>
+<img src="https://i.imgur.com/3VDYXnu.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+Go to Network Tab and create 2 NICs (Network Interface Controller) 1(for the Internet running NAT) 2(one for the internal VMWARE network):  <br/>
+<img src="https://i.imgur.com/fU3Cusr.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+ <img src="https://i.imgur.com/fU3Cusr.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Wait for process to complete (may take some time):  <br/>
