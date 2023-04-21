@@ -308,7 +308,7 @@ Name the PC “user” and don’t set up a password:  <br/>
 <br />
 <br />
 Type “ipconfig” in the command prompt line to check out the information of the network:  <br/>
-<img src="blob:https://imgur.com/845ca338-b35b-4e9e-8340-b87964d4604c" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/rYIlDob.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Right Click the Windows Start button and select “System
