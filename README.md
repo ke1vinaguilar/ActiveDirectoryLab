@@ -164,41 +164,41 @@ Click on “Tools” and select “Routing and Remote Access”:  <br/>
 <br />
 <br />
 Right-click on “DC” and select “Configure and Enable Routing and Remote Access”:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/NsdhW20.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Select “Network address translation (NAT)”:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/SYuVhJ1.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Select “INTERNET” when selecting “Use this public interface to connect to the Internet”:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/Rz5cn12.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Select “Finish” to complete the setup wizard:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/7zYa4r4.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Setup DHCP Server on the Domain Controller which allows our Windows 10 client to get an IP address so they can browse the internet
 -Go back to Server Manager and select “Add roles and features”
 40. Select “DHCP Server” and “Add Features”:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/qSvElmZ.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Go to “Tools” and Select “DHCP”:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/Y0XjfF0.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Expand “dc.mydomain.com”:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/sgdawPm.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Expand “IPv4”, Right-click and select “New Scope”:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/jWqAgZ7.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Name the “New Scope” after the Range “172.16.0.100-200”:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/sV3VzZf.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Fill in the IP Range as the following:
@@ -206,121 +206,123 @@ Start IP address: 172.16.0.100
 End IP address: 172.16.0.200
 Length: 24
 Subnet Mask: 255.255.255.0:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/NItj5O6.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Select “Yes, I want to configure these options now”:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/PUCxS10.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Clients are going to use the Internal NIC of the Domain Controller as their default gateway/ router
 -Enter 172.16.0.1 and select “Add”:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/PBpkiBc.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Select “Yes, I want to activate this scope now?” and “Finish”:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/xJquN1T.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Right-click the “domaincontroller.mydomain.com” and select “Authorize”:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/RJ5AptT.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Select “Configure this local server” in Server Manager (usually don’t want to do this in a production environment but this is a lab):  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/HS0OgHm.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Disable the “IE Enhanced Security Configuration”:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/qtrxUG0.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
-Open browser and type in https://github.com/joshmadakor1/AD_PS/ .Save “AD_PS-master.zip” in Desktop:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+Open browser and type in https://github.com/joshmadakor1/AD_PS/:  <br/>
+<img src="https://i.imgur.com/I8aBQfc.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
-Extract the zip folder on the Desktop:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+Save “AD_PS-master.zip” in Desktop. Extract the zip folder on the Desktop:  <br/>
+<img src="https://i.imgur.com/bAWKAgg.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Open the AD_PS-master folder
 - Open the “names” Plain Text File
 -Add “Kelvin Aguilar” we’re going to use this file to programmatically create all of these users:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/kPjEEqj.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Click on “Start” and go to “Windows PowerShell”, Right-click on “Windows PowerShell ISE (x86)”
 -Click on “More” and click on “run as administrator”:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/yGsFvbk.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Click on “Open Script”
 -Click on “My Desktop”
 -Open the “AD_PS-master” folder
 -Click on the “1_CREATE_USERS” PowerShell Script:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/VyoAqS6.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Enable the execution of all scripts by typing “Set-ExecutionPolicy Unrestricted” in the command line
 -Select “Yes to all”:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/NJg733F.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Change directory to be able to run the script by typing 
 “cd c:\users\a-kaguilar\desktop\AD_PS-master” in the command line:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/1gQkIs4.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Type “ls” in the command line to see the files:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/xVcY3Me.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Press “Run Script” or F5:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/Xi96NHm.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Create Windows to Virtual Machine in Virtual Box
 -Click on “New” in Virtual Box:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/HTp7Tcq.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+-Configurations
+ <img src="https://i.imgur.com/IbJm0X2.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Right Click on “CLIENT1 and select “Settings”
 -Click on “Advanced” and change both “Shared Clipboard” and “Drag’n’Drop” to “bidirectional”:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/lXgpvFw.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Select “Network” and change “Attached to” to “Internal Network”:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/9lUFqvT.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
-Start “CLIENT1” and select the Windows 10 iso file
+Start “CLIENT1” and select the Windows 10 iso file. Select “I don’t have a product key”
 67.Select “I don’t have a product key”:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/ySGpvPH.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Select “Windows 10 Pro”:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/Up0o5FF.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Name the PC “user” and don’t set up a password:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/5zqpyqI.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Type “ipconfig” in the command prompt line to check out the information of the network:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="blob:https://imgur.com/845ca338-b35b-4e9e-8340-b87964d4604c" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Right Click the Windows Start button and select “System
 -Select “rename this PC (advanced)”:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/ooTeZks.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Click on “Change” and rename the Computer name to “CLIENT1”
 -Select “Domain” in “Member of” and type in “mydomain.com” to join the domain:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/h1psb6z.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Type in “kaguilar” as username and “Password1” for the password as credentials to make changes:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/ok7JyHu.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 </p>
