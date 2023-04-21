@@ -67,14 +67,14 @@ Create Password:  <br/>
 <br />
 <br />
 Login to Sever as Administrator and Click on “Devices” and then click on “Insert Guest Additions CD image…”:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/aLna3mm.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Open up “File Explorer” then go to “My PC”. Click on “CD Drive (D:) VirtualBox Guest Additions:  <br/>
 <img src="https://i.imgur.com/wExAX4Z.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
- Run “VBoxWindowsAdditions-amd64” and install (make it less laggy and box resizes when you expand:  <br/>
+Run “VBoxWindowsAdditions-amd64” and install (make it less laggy and box resizes when you expand:  <br/>
 <img src="https://i.imgur.com/d3y4wGS.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
@@ -95,23 +95,23 @@ Domain Controller itself serves as the Default Gateway, when we install Active D
 <br />
 <br />
  Install Active Directory Domain Services (ADDS) and Create a Domain:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/IZ3bLj6.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Click on “Active Directory Domain Services” and Install:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/1QAwW3Z.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Create the Domain:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/IKJO4Yu.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Click “Add new forest” and fill in the Root domain name: “mydomain.com”:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/uIhFfMP.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Type password as “Password1” and Click “Next” until you get the option to “Install”:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/8LJYmxo.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Log into “MYDOMAIN/Administrator” profile
@@ -122,7 +122,7 @@ Log into “MYDOMAIN/Administrator” profile
 -Right-click “mydomain.com” and select “New”
 -Select “Organizational Unit” and name it “_ADMINS”
 -Uncheck “Protect container from accidental deletion”:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/ryWjo8T.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Create a new user inside of “Admins”
