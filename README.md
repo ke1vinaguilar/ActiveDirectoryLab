@@ -128,38 +128,39 @@ Log into “MYDOMAIN/Administrator” profile
 Create a new user inside of “Admins”
 -Right-click “Admins” and select “New”
 -Select “User” and Fill In:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/X2rcOyd.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Set password to “Password1” and uncheck “User must change password at next logon” and check “Password never expires”:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/L1ATXqu.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
  Set user as an Admin
 -Click the profile to go to properties
 -Click on “Member of” and add “Domain Admins” group:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/fvC9XHw.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Sign out of Domain Controller and sign back in as the new Admin profile we just created:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/66vx3qv.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Install RAS/NAT (when we create our Windows 10 client it allows the client to be on the private virtual network with the ability to still access the internet through the domain controller)
 -Install RAS/NAT on the Domain Controller. Click on “Add Roles and Features” in Server Manager:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/NWrR5LE.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Click on “Remote Access”:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/xVN1AG0.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Click on “Routing” and Install:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/wrgfuOw.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/rDqTjuA.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Click on “Tools” and select “Routing and Remote Access”:  <br/>
-<img src="https://i.imgur.com/uqClmrU.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/OVDLcok.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
 <br />
 <br />
 Right-click on “DC” and select “Configure and Enable Routing and Remote Access”:  <br/>
